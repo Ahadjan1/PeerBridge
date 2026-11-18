@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+server/uploads/resources/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage
+coverage/
+
+# Temp
+tmp/
+temp/
+
+ai-model/datasets/test/unseen_test_dataset.csv
+
+ai-model/datasets/
+# Database backups & scratch
+server/backups/
+server/scratch/
